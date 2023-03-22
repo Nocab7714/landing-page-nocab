@@ -1,7 +1,7 @@
 <template>
   <header
     class="header px-4 py-5 d-flex align-items-lg-center justify-content-center"
-    style="background-image: url(images/home_bg.jpg)"
+    :style="{ backgroundImage: `url(${imageUrl.bgHome})` }"
   >
     <div class="text-white text-center">
       <p>你是不是也有夢想</p>
@@ -28,11 +28,11 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <img src="/images/info.jpg" alt="info" class="w-100 img-fluid" />
+        <img :src="`${imageUrl.info}`" alt="info" class="w-100 img-fluid" />
       </div>
     </div>
   </section>
-  <section class="py-5" style="background-image: url(/images/bg_paper.png)">
+  <section class="py-5" :style="{ backgroundImage: `url(${imageUrl.bgPaper})` }">
     <div class="container">
       <h2 class="text-center fs-2 mb-5 fw-bold">你有這些煩惱嗎？</h2>
       <div class="row row-cols-1 row-cols-lg-4 g-3 g-lg-4">
@@ -83,7 +83,7 @@
       </div>
     </div>
   </section>
-  <section class="container my-5" id="costOfTheSolution.">
+  <section class="container my-5" id="costOfTheSolution">
     <h2 class="fw-bold text-center mb-4">方案費用</h2>
     <div class="row row-cols-1 row-cols-lg-3 g-4">
       <div class="col">
@@ -95,7 +95,7 @@
             小小搭懶蟲
           </div>
           <div class="card-body text-center flex-grow-0">
-            <img src="/images/plan01.jpg" alt="plan01.jpg" class="img-fluid my-3" />
+            <img :src="`${imageUrl.plan01}`" alt="plan01.jpg" class="img-fluid my-3" />
             <div class="text-info fw-bold">NT<strong class="fs-1"> 298 </strong>/月</div>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
@@ -121,7 +121,7 @@
         <div class="card border-0 shadow h-100">
           <div class="cart-header text-white bg-info fs-4 text-center fw-bold py-2">睡一整天囉</div>
           <div class="card-body text-center">
-            <img src="/images/plan02.jpg" alt="plan02.jpg" class="img-fluid my-3" />
+            <img :src="`${imageUrl.plan02}`" alt="plan02.jpg" class="img-fluid my-3" />
             <div class="text-info fw-bold">NT<strong class="fs-1"> 666 </strong>/月</div>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
@@ -154,7 +154,7 @@
             自由自在的人生
           </div>
           <div class="card-body text-center flex-grow-0">
-            <img src="/images/plan03.jpg" alt="plan03.jpg" class="img-fluid my-3" />
+            <img :src="`${imageUrl.plan03}`" alt="plan03.jpg" class="img-fluid my-3" />
             <div class="text-info fw-bold fs-5 my-3 flex-grow-0">客製化詢價</div>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
@@ -173,7 +173,27 @@
     </div>
   </section>
 </template>
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      imageUrl: {
+        bgPaper:
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/bg_paper.png',
+        bgHome:
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/home_bg.jpg',
+        info: 'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/info.jpg',
+        plan01:
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/plan01.jpg',
+        plan02:
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/plan02.jpg',
+        plan03:
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/plan03.jpg'
+      }
+    }
+  }
+}
+</script>
 <style lang="scss">
 // header
 .header {

@@ -1,41 +1,8 @@
 <template>
-  <section style="background-image: url(/images/bg_paper.png)" class="text-center py-5">
+  <section :style="{ backgroundImage: `url(${imageUrl.bgPaper})` }" class="text-center py-5">
     <div class="text-info fw-bold fs-4 mb-2">Q&A</div>
     <h2 class="fw-bold fs-2">常見問題</h2>
   </section>
-  <!-- <section class="container py-5">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-6">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item" v-for="(item, index) in items" :key="index">
-            <h2 class="accordion-header" :id="'heading' + index">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                :data-bs-target="'#collapse' + index"
-                aria-expanded="true"
-                :aria-controls="'collapse' + index"
-              >
-                {{ item.title }}
-              </button>
-            </h2>
-            <div
-              :id="'collapse' + index"
-              class="accordion-collapse collapse"
-              :class="{ show: item.open }"
-              :aria-labelledby="'heading' + index"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                {{ item.content }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
   <section class="container py-5">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-6">
@@ -116,3 +83,15 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      imageUrl: {
+        bgPaper:
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/bg_paper.png'
+      }
+    }
+  }
+}
+</script>

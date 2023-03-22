@@ -1,5 +1,5 @@
 <template>
-  <section style="background-image: url(/images/bg_paper.png)" class="text-center py-5">
+  <section :style="{ backgroundImage: `url(${imageUrl.bgPaper})` }" class="text-center py-5">
     <div class="text-info fw-bold fs-4 mb-2">HAPPY LIFE</div>
     <h2 class="fw-bold fs-2">開始當個小懶蟲</h2>
   </section>
@@ -117,6 +117,14 @@
 </template>
 <script>
 export default {
+  data() {
+    return {
+      imageUrl: {
+        bgPaper:
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/bg_paper.png'
+      }
+    }
+  },
   mounted() {
     // 驗證表單
     const forms = document.querySelectorAll('.needs-validation')
