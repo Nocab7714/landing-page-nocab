@@ -121,7 +121,7 @@ export default {
     return {
       imageUrl: {
         bgPaper:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/bg_paper.png'
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/bg_paper.png'
       }
     }
   },

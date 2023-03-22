@@ -179,16 +179,16 @@ export default {
     return {
       imageUrl: {
         bgPaper:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/bg_paper.png',
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/bg_paper.png',
         bgHome:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/home_bg.jpg',
-        info: 'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/info.jpg',
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/home_bg.jpg',
+        info: 'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/info.jpg',
         plan01:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/plan01.jpg',
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/plan01.jpg',
         plan02:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/plan02.jpg',
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/plan02.jpg',
         plan03:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/images/plan03.jpg'
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/plan03.jpg'
       }
     }
   }
