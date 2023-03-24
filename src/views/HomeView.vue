@@ -2,6 +2,7 @@
   <header
     class="header px-4 py-5 d-flex align-items-lg-center justify-content-center"
     :style="{ backgroundImage: `url(${imageUrl.bgHome})` }"
+    style="background-color: #47494c"
   >
     <div class="text-white text-center">
       <p>你是不是也有夢想</p>
