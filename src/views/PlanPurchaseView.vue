@@ -47,7 +47,7 @@
           </div>
           <div class="mb-3">
             <label class="form-label" for="phone">電話</label>
-            <input class="form-control" type="phone" id="phone" required />
+            <input class="form-control" type="tel" id="phone" required />
             <div class="invalid-feedback">請輸入您的電話號碼</div>
           </div>
           <div class="mb-3">
