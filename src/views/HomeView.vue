@@ -179,16 +179,16 @@ export default {
     return {
       imageUrl: {
         bgPaper:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/bg_paper.png',
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/public/images/bg_paper.webp',
         bgHome:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/home_bg.jpg',
-        info: 'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/info.jpg',
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/public/images/home_bg.webp',
+        info: 'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/public/images/info.webp',
         plan01:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/plan01.jpg',
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/public/images/plan01.webp',
         plan02:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/plan02.jpg',
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/public/images/plan02.webp',
         plan03:
-          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/src/assets/images/plan03.jpg'
+          'https://raw.githubusercontent.com/Nocab7714/landing-page-nocab/main/public/images/plan03.webp'
       }
     }
   }
