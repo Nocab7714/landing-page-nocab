@@ -147,7 +147,6 @@ export default {
 }
 </script>
 <style lang="scss">
-@import '../assets/all.scss';
 .deco-line {
   padding-left: 1rem;
   position: relative;
@@ -158,13 +157,13 @@ export default {
     left: 0;
     bottom: 0;
     width: 3px;
-    background-color: $info;
+    background-color: var(--bs-info);
   }
 }
 .btn-active-special {
   &.active {
-    box-shadow: $box-shadow;
-    color: $light;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    color: var(--bs-light);
   }
 }
 </style>
