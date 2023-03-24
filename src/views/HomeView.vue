@@ -28,7 +28,13 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <img :src="`${imageUrl.info}`" alt="一男一女抓著一顆像球的吉祥物" class="w-100 img-fluid" />
+        <img
+          :src="`${imageUrl.info}`"
+          alt="一男一女抓著一顆像球的吉祥物"
+          class="w-100 img-fluid"
+          width="547"
+          height="300"
+        />
       </div>
     </div>
   </section>
@@ -99,6 +105,8 @@
               :src="`${imageUrl.plan01}`"
               alt="一隻黑色的鳥帶者藍色耳機在唱歌"
               class="img-fluid my-3"
+              width="177"
+              height="155"
             />
             <div class="text-info fw-bold">NT<strong class="fs-1"> 298 </strong>/月</div>
           </div>
@@ -129,6 +137,8 @@
               :src="`${imageUrl.plan02}`"
               alt="穿橘色衣服的女生側躺在床上休息"
               class="img-fluid my-3"
+              width="195"
+              height="155"
             />
             <div class="text-info fw-bold">NT<strong class="fs-1"> 666 </strong>/月</div>
           </div>
@@ -166,6 +176,8 @@
               :src="`${imageUrl.plan03}`"
               alt="一隻戴者笑臉的藍色精靈頭上坐著一個穿橘紅色衣服的女生"
               class="img-fluid my-3"
+              width="239"
+              height="155"
             />
             <div class="text-info fw-bold fs-5 my-3 flex-grow-0">客製化詢價</div>
           </div>
