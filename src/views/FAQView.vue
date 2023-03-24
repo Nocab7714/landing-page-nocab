@@ -5,7 +5,7 @@
   </section>
   <section class="container py-5">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-6">
+      <div class="col-lg-6">
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
