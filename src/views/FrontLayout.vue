@@ -47,9 +47,10 @@
       </div>
     </div>
   </nav>
-  <!-- 修正 navbar 加入 fixed-top 被吃掉的向下空間 -->
-  <div class="pt-5"></div>
-  <router-view></router-view>
+  <!-- 修正 navbar 被吃掉的向下空間 -->
+  <div class="navbar-height">
+    <router-view></router-view>
+  </div>
   <section style="background-color: #f8f9fa">
     <div class="container py-5 text-center">
       <div class="row justify-content-center">
@@ -98,6 +99,10 @@ export default {
 }
 </script>
 <style lang="scss">
+// navbar
+.navbar-height {
+  padding-top: var(--bs-navbar-height);
+}
 // footer
 .footer-background-color {
   background-color: #6c757d;
