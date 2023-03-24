@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <img :src="`${imageUrl.info}`" alt="info" class="w-100 img-fluid" />
+        <img :src="`${imageUrl.info}`" alt="一男一女抓著一顆像球的吉祥物" class="w-100 img-fluid" />
       </div>
     </div>
   </section>
@@ -95,7 +95,11 @@
             小小搭懶蟲
           </div>
           <div class="card-body text-center flex-grow-0">
-            <img :src="`${imageUrl.plan01}`" alt="plan01.jpg" class="img-fluid my-3" />
+            <img
+              :src="`${imageUrl.plan01}`"
+              alt="一隻黑色的鳥帶者藍色耳機在唱歌"
+              class="img-fluid my-3"
+            />
             <div class="text-info fw-bold">NT<strong class="fs-1"> 298 </strong>/月</div>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
@@ -121,7 +125,11 @@
         <div class="card border-0 shadow h-100">
           <div class="cart-header text-white bg-info fs-4 text-center fw-bold py-2">睡一整天囉</div>
           <div class="card-body text-center">
-            <img :src="`${imageUrl.plan02}`" alt="plan02.jpg" class="img-fluid my-3" />
+            <img
+              :src="`${imageUrl.plan02}`"
+              alt="穿橘色衣服的女生側躺在床上休息"
+              class="img-fluid my-3"
+            />
             <div class="text-info fw-bold">NT<strong class="fs-1"> 666 </strong>/月</div>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
@@ -154,7 +162,11 @@
             自由自在的人生
           </div>
           <div class="card-body text-center flex-grow-0">
-            <img :src="`${imageUrl.plan03}`" alt="plan03.jpg" class="img-fluid my-3" />
+            <img
+              :src="`${imageUrl.plan03}`"
+              alt="一隻戴者笑臉的藍色精靈頭上坐著一個穿橘紅色衣服的女生"
+              class="img-fluid my-3"
+            />
             <div class="text-info fw-bold fs-5 my-3 flex-grow-0">客製化詢價</div>
           </div>
           <ul class="list-group list-group-flush border-top border-bottom">
