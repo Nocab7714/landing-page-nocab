@@ -90,7 +90,7 @@
     </div>
   </section>
   <section class="container my-5" id="costOfTheSolution">
-    <h2 class="fw-bold text-center mb-4">方案費用</h2>
+    <h2 class="fw-bold text-center mb-5">方案費用</h2>
     <div class="row row-cols-1 row-cols-lg-3 g-4">
       <div class="col">
         <div class="card border-0 shadow h-100">
