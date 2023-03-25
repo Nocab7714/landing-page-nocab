@@ -1,6 +1,4 @@
 <template>
-  <section></section>
-
   <section>
     <div :style="{ backgroundImage: `url(${imageUrl.bgPaper})` }" class="text-center py-5">
       <div class="text-info fw-bold fs-4 mb-2">Q&A</div>
