@@ -23,13 +23,13 @@
             <router-link to="/" class="nav-link border-bottom border-bottom-lg-0">首頁</router-link>
           </li>
           <li class="nav-item mx-3 my-2 my-lg-0">
-            <router-link to="" class="nav-link border-bottom border-bottom-lg-0"
-              >服務介紹</router-link
+            <a class="nav-link border-bottom border-bottom-lg-0" href="#/#serviceIntroduction"
+              >服務介紹</a
             >
           </li>
           <li class="nav-item mx-3 my-2 my-lg-0">
-            <router-link to="" class="nav-link border-bottom border-bottom-lg-0"
-              >方案費用</router-link
+            <a class="nav-link border-bottom border-bottom-lg-0" href="#/#costOfTheSolution"
+              >方案費用</a
             >
           </li>
           <li class="nav-item mx-3 my-2 my-lg-0 border-bottom border-bottom-lg-0">
