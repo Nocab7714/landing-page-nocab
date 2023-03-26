@@ -51,7 +51,7 @@
   <div class="navbar-height">
     <router-view></router-view>
   </div>
-  <section style="background-color: #f8f9fa">
+  <section style="background-color: var(--bs-gray-title-bkg)">
     <div class="container py-5 text-center">
       <div class="row justify-content-center">
         <div class="col-lg-10 col-8">
@@ -85,7 +85,7 @@
     </div>
   </section>
   <!-- footer -->
-  <footer class="footer-background-color py-3">
+  <footer class="py-3" style="background-color: var(--bs-gray-footer-bkg)">
     <div class="text-white text-center">Copyright © 2021 小懶蟲.All rights reserved.</div>
   </footer>
 </template>
@@ -102,9 +102,5 @@ export default {
 // navbar
 .navbar-height {
   padding-top: var(--bs-navbar-height);
-}
-// footer
-.footer-background-color {
-  background-color: #6c757d;
 }
 </style>

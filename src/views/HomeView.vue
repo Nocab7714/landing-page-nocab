@@ -97,7 +97,7 @@
         <div class="card border-0 shadow h-100">
           <div
             class="cart-header text-secondary fs-4 text-center fw-bold py-2"
-            style="background-color: #f8f9fa"
+            style="background-color: var(--bs-gray-title-bkg)"
           >
             小小搭懶蟲
           </div>
@@ -168,7 +168,7 @@
         <div class="card border-0 shadow h-100">
           <div
             class="cart-header text-secondary fs-4 text-center fw-bold py-2"
-            style="background-color: #f8f9fa"
+            style="background-color: var(--bs-gray-title-bkg)"
           >
             自由自在的人生
           </div>

@@ -70,6 +70,10 @@
   --#{$prefix}code-color: #{$code-color};
 
   --#{$prefix}highlight-bg: #{$mark-bg};
+  
+  // 自定義顏色變數
+  --#{$prefix}gray-title-bkg: #{$gray-title};
+  --#{$prefix}gray-footer-bkg: #{$gray-footer};
 
   --#{$prefix}navbar-height: #{$nav-bar-height};
 }
