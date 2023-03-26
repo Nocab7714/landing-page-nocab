@@ -1,0 +1,1 @@
+.deco-line{padding-left:1rem;position:relative}.deco-line:after{content:"";position:absolute;top:0;left:0;bottom:0;width:3px;background-color:var(--bs-info)}.btn-active-special.active{box-shadow:0 .5rem 1rem #00000026;color:var(--bs-light)}
