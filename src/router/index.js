@@ -24,13 +24,21 @@ const router = createRouter({
         }
       ]
     }
-  ]
-})
-
-router.beforeEach((to, from, next) => {
-  // 將頁面滾動到頂部
-  window.scrollTo(0, 0)
-  next()
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    // 將頁面滾動到頂部
+    if (to.hash) {
+      return {
+        el: to.hash,
+        top: 160
+      }
+    } else {
+      return {
+        // 將頁面滾動到頂部
+        top: 0
+      }
+    }
+  }
 })
 
 export default router

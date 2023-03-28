@@ -20,7 +20,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto text-center">
           <li class="nav-item mx-3 my-2 my-lg-0">
-            <router-link to="/" class="nav-link border-bottom border-bottom-lg-0">首頁</router-link>
+            <router-link class="nav-link border-bottom border-bottom-lg-0" to="/">首頁</router-link>
           </li>
           <li class="nav-item mx-3 my-2 my-lg-0">
             <a class="nav-link border-bottom border-bottom-lg-0" href="#/#serviceIntroduction"
@@ -33,7 +33,9 @@
             >
           </li>
           <li class="nav-item mx-3 my-2 my-lg-0 border-bottom border-bottom-lg-0">
-            <router-link class="nav-link" to="/FAQ">常見問題</router-link>
+            <router-link class="nav-link border-bottom border-bottom-lg-0" to="/FAQ"
+              >常見問題</router-link
+            >
           </li>
           <li class="nav-item my-2 my-lg-0">
             <router-link class="nav-link btn btn-info d-none d-lg-block" to="/PlanPurchase"
